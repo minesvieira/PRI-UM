@@ -1,0 +1,69 @@
+body {
+  background-color: gray;
+}
+a {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration:none;
+}
+
+h1 {
+  border-style: ridge;
+  font-family: "Arial", Times, serif;
+}
+
+
+p {
+        text-align: justify;
+        font-family: "Arial", Times, serif;
+        font-size: 14px;
+        margin-left: 20px;
+        margin-right: 20px
+        
+}
+
+li {
+    font-family: "Arial", Times, serif;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 6px;
+    text-align: left;
+    border-bottom: 0.1px solid black;
+  }
+
+  tr {
+    font-family: "Arial", Times, serif;
+    font-size: 13px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+  }
+
+
+  h3 {
+    margin-left: 10px;
+  }
+/* Classes*/
+.nav-button{
+  border-radius: 5px;
+}
+
+.nav-button:hover{
+  background-color: rgb(123, 123, 123);
+}
+
+.list-menu {
+  display: inline;
+}
