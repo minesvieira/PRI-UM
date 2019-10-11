@@ -1,0 +1,11 @@
+AGENDA
+
+(a) - //entrada[starts-with(telefone,'253')]
+
+(b) - //entrada[not(starts-with(telefone,'253'))]
+
+(c) - //entrada/nome[starts-with(.,'Jose')] | //entrada/nome[starts-with(.,'Maria')]
+
+(d) - /agenda/grupo/entrada [@id]
+
+(e) - //entrada[not(contains(@tipo,'pessoa'))]

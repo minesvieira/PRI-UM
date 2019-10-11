@@ -1,0 +1,11 @@
+ARQUEOSSÍTIOS
+
+(a) - //identi[../arqelem/@concel='Amares'
+
+(b) - //concel[../tipo[contains(@assunto,'arqueossitio')]]
+
+(c) - //arqelem[contains(concel,'Montalegre')]/descri
+
+(d) - count(//arqelem[contains(concel,'Amares')]) 
+
+(e) - //arqelem/descri/liga/@termo='Castros'

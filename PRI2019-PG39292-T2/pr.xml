@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project-record SYSTEM "file:/C:/Users/Maria/Desktop/MEI/1%C2%BASemestre/PRI/PRI2019-PG39292-T2/pr.dtd">
+<project-record>
+    <dados>
+        <keyname>Maria_MEI2019</keyname>
+        <title> Trabalho de casa 2</title>
+        <subtitle> XML e DTDS</subtitle>
+        <begin_date> Setembro 2019</begin_date>
+        <end_date> Setembro 2019</end_date>
+        <supervisor plataforma="http://www4.di.uminho.pt/~jcr/"></supervisor>
+    </dados>
+    <workteam>
+        <aluno>
+            <nome> Maria Inês Vieira Pinto</nome>
+            <email> mariainesvpinto14@hotmail.com </email>
+            <numero> PG39292</numero>
+        </aluno>
+    </workteam>
+    <abstract>
+        <paragrafo> <negrito> XML</negrito>(Extensible Markup Language) é uma recomendação da W3C para gerar linguagens de marcação para necessidades especiais.</paragrafo>
+        <paragrafo> É um dos subtipos da SGML <italico> (acrônimo de Standard Generalized Markup Language ou Linguagem Padronizada de Marcação Genérica)</italico> capaz de descrever diversos tipos de dados. O seu propósito principal é a <sublinhado>facilidade de compartilhamento de informações</sublinhado> por intermédio da internet.</paragrafo>
+        <paragrafo> Este TPC foi baseado nesta página: <links url="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/PR.htm"></links> em que através da sua estrutura, conseguissemos implementar um ficheiro dtd e xml. </paragrafo>
+    </abstract>
+    <deliverables>
+        <deliverable ficheiro="pr.xml"></deliverable>
+        <deliverable ficheiro="pr.dtd"></deliverable>
+        <deliverable ficheiro="arq.txt"></deliverable>
+        <deliverable ficheiro="agenda.txt"></deliverable>
+    </deliverables>
+    <data> 5-10-2019</data>
+</project-record>
