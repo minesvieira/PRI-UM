@@ -1,0 +1,40 @@
+extends layout
+block content
+
+    .w3-container
+        header
+        h1 Informações sobre o aluno
+            h2=aluno.nome
+            h2= aluno.curso
+            h2= aluno.identificador
+
+        .w3-card-4
+            header.w3-container.w3-red
+                h4 Adicione um Indicador e a respetiva Nota
+            .w3-container
+                form.w3-container(action=`/alunos/${aluno.identificador}/notas` method='POST')
+                    label
+                        b Indicador (ex:Tpx)
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='indicador')
+                    label
+                        b Nota
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='nota')
+                    input.w3-btn.w3-border.w3-blue-grey(type='submit' value='Adicionar')
+        .w3-card-4
+            header.w3-container.w3-red
+                h3 Lista de Notas
+            .w3-container
+                table.w3-table-all
+                    tr
+                        th Indicador
+                        th Nota
+                        th 
+                    each i in aluno.notas
+                        tr
+                            td= i.indicador
+                            td= i.nota
+                            td
+                                button.w3-button.w3-border.w3-blue-grey(onclick="apagaNota('" + aluno.identificador + "," + i.indicador + "')") Apagar
+            footer.w3-container.w3-red
+                adress Gerado por Gestão de Alunos
+                    a(href='/alunos')  Voltar á página anterior

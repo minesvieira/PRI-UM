@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Maria/Desktop/pr.dtd">
+<pr>
+    <meta>
+        <keyname>Maria_MEI2019</keyname>
+        <title>Trabalho de casa número 5</title>
+        <subtitle>Servidor Node js sobre Gestão de Alunos</subtitle>
+        <bdate>Outubro 2019</bdate>
+        <edate>Outubro 2019</edate>
+        <supervisor>
+            <name>Professor José Carlos Ramalho</name>
+            <email>jcr@uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>PG39292</identifier>
+            <name> Maria Inês Vieira Pinto</name>
+            <email>mariainesvpinto14@hotmail.com</email>
+            <photo path="maria.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p> O <b> objetivo</b> deste trabalho de casa foi criar um servidor web em node js mas desta vez, tivemos de usar a <b>framework Express. </b></p> 
+        <p> Tivemos de utilizar vários tipos de pedidos: <i>GET </i> (consultas), <i>POST </i> (envio de informação) e <i>DELETE </i> (pedido para apagar informação)</p>
+        <p> GET /alunos </p>
+        <p> GET /alunos/:idAluno </p>
+        <p> POST /alunos </p>
+        <p> POST /alunos/:idAluno/notas </p>
+        <p> DELETE /alunos/:idAluno </p>
+        <p> DELETE /alunos/:idAluno/notas/:indicador </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.html">pr.html</deliverable>
+        <deliverable path="pr5.xml">pr5.xml</deliverable>
+        <deliverable path="routes/index.js">index.js</deliverable>
+    </deliverables>
+</pr>
+
