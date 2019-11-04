@@ -84,9 +84,9 @@ router.delete('/alunos/:idAluno/notas/:indicador', function(req, res) {
   var id = req.params.idAluno
   var indica = req.params.indicador
   jsonfile.readFile(myBD, (erro,dados) => {
-    if(!erro){
+    if(!erro){ 
       var indexaluno = dados.findIndex(c => c.identificador == id)
-      if(indexnota > -1){
+      if(indexaluno > -1){ console.log("Entrou")
         var indexnota = dados[indexaluno]["notas"].findIndex(c => c.indicador == indica) //retorna o indice do primeiro elemento em uma matriz
         dados[indexaluno]["notas"].splice(indexnota,1) //splice () adiciona / remove itens de / para uma matriz e retorna os itens removidos
         jsonfile.writeFile(myBD, dados, erro => {
@@ -95,7 +95,7 @@ router.delete('/alunos/:idAluno/notas/:indicador', function(req, res) {
         })
       }
     }
-    res.render('notasAluno', {aluno:aluno})
+    res.render('notasAluno', {aluno:dados})
   })
 })
 
