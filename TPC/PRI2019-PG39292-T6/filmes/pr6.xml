@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Maria/Desktop/pr.dtd">
+<pr>
+    <meta>
+        <keyname>Maria_MEI2019</keyname>
+        <title>Trabalho de casa número 6</title>
+        <subtitle>Servidor Node js, Framework Express e Mongo DB para Gestão de Filmes</subtitle>
+        <bdate>Novembro 2019</bdate>
+        <edate>Novembro 2019</edate>
+        <supervisor>
+            <name>Professor José Carlos Ramalho</name>
+            <email>jcr@uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>PG39292</identifier>
+            <name> Maria Inês Vieira Pinto</name>
+            <email>mariainesvpinto14@hotmail.com</email>
+            <photo path="maria.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p> O <b> objetivo</b> deste trabalho de casa foi criar um <b>servidor web </b> em node js, utilizando a framework Express com uma base de dados que recolhemos através do MONGODB.</p> 
+        <p> Tivemos de utilizar vários tipos de pedidos: <i>GET </i> (consultas), <i>POST </i> (envio de informação) e <i>DELETE </i> (pedido para apagar informação)</p>
+        <p>Este servidor tem uma página inicial em que clicamos num botão para ver a listagem de filmes com o ID, titulo e data. </p>
+        <p>Nessa interface temos outro botão para criar um novo filme, em que vamos ter um pequeno formulário com 4 campos para adicionar o titulo, data, atores e géneros.</p>
+        <p>Na listagem de filmes podemos ver mais informações sobre esse filme, ou seja, quando clicamos mostra-nos o id, data, nome, géneros e atores sobre esse filme.</p>
+        <p>Por fim, temos também a opção de eliminar um filme.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./filmes/">Servidor</deliverable>
+    </deliverables>
+</pr>
+

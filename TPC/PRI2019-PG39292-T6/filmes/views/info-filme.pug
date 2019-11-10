@@ -1,0 +1,24 @@
+extends layout
+
+block content
+    .w3-container
+        h1 Informação sobre o filme 
+        table.w3-table-all 
+            tr 
+                th Id
+                th Titulo
+                th Year
+                th Atores
+                th Géneros
+            tr 
+                td= filme._id
+                td= filme.title
+                td= filme.year
+                td 
+                     ul
+                        each cast in filme.cast
+                            li= cast
+                td 
+                     ul
+                        each genres in filme.genres
+                            li= genres
