@@ -1,0 +1,1 @@
+mongoimport -d obras -c obras --jsonArray C:\Users\Maria\Desktop\MEI\1ºSemestre\PRI\TPC7\obras\obras.json

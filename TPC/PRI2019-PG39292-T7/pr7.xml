@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Maria/Desktop/pr.dtd">
+<pr>
+    <meta>
+        <keyname>Maria_MEI2019</keyname>
+        <title>Trabalho de casa número 7</title>
+        <subtitle>Servidor Node js, Api de dados e Mongo DB para Gestão de Obras </subtitle>
+        <bdate>Novembro 2019</bdate>
+        <edate>Novembro 2019</edate>
+        <supervisor>
+            <name>Professor José Carlos Ramalho</name>
+            <email>jcr@uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>PG39292</identifier>
+            <name> Maria Inês Vieira Pinto</name>
+            <email>mariainesvpinto14@hotmail.com</email>
+            <photo path="maria.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p> O <b> objetivo</b> deste trabalho de casa foi criar um <b>servidor web </b> em node js, utilizando a framework Express com uma base de dados que recolhemos através do MONGODB, criando assim uma API de dados.</p> 
+        <p>Tivemos que converter o ficheiro das obras de <i>XML para JSON </i>para de seguida importarmos para o MONGO.</p>
+        <p>De seguida tivemos que utilizar vários pedidos <u>GET</u> para o servidor mostrar as obras, compositores e uma lista de obras do compositor.</p>
+        <p>/obras</p>
+        <p>/obras?periodo=X</p>
+        <p>/obras?anoCriacao=Y</p>
+        <p>obras?compositor=A</p>
+        <p>/compositores</p>
+        <p>/compositores/:nome</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./controllers/obras.js">controllers/obras.js</deliverable>
+        <deliverable path="./models/obras.js">models/obras.js</deliverable>
+        <deliverable path="./routes/api.js">routes/api.js</deliverable>
+    </deliverables>
+</pr>
+
