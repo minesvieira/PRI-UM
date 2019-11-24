@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Maria/Desktop/pr.dtd">
+<pr>
+    <meta>
+        <keyname>Maria_MEI2019</keyname>
+        <title>Trabalho de casa número 8</title>
+        <subtitle>Servidor Node js, Api de dados e Mongo DB para Gestão de Ficheiros  </subtitle>
+        <bdate>Novembro 2019</bdate>
+        <edate>Novembro 2019</edate>
+        <supervisor>
+            <name>Professor José Carlos Ramalho</name>
+            <email>jcr@uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>PG39292</identifier>
+            <name> Maria Inês Vieira Pinto</name>
+            <email>mariainesvpinto14@hotmail.com</email>
+            <photo path="maria.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p> O <b> objetivo</b> deste trabalho de casa foi criar um <b>servidor web </b> em node js, utilizando a framework Express.</p> 
+        <p> Na interface temos a opção de adicionar um, ou vários ficheiros de texto ou imagem PNG.</p>
+        <p>Temos também uma lista de todos os ficheiros já criados, com a descrição, nome, tipo e tamanho.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./controllers/ficheiros.js">controllers/ficheiros.js</deliverable>
+        <deliverable path="./models/ficheiros.js">models/ficheiros.js</deliverable>
+        <deliverable path="./routes/api.js">routes/api.js</deliverable>
+    </deliverables>
+</pr>
+
