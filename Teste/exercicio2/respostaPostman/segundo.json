@@ -1,0 +1,28 @@
+[
+    {
+        "sigla": "GNR",
+        "designacao": "Guarda Nacional Repúblicana",
+        "id": "ent_GNR"
+    },
+    {
+        "sigla": "PSP",
+        "designacao": "Polícia de Segurança Pública",
+        "id": "ent_PSP"
+    },
+    {
+        "sigla": "PJ",
+        "designacao": "Polícia Judiciária",
+        "id": "ent_PJ"
+    },
+    {
+        "sigla": "SEF",
+        "designacao": "Serviço de Estrangeiros e Fronteiras",
+        "id": "ent_SEF"
+    },
+    {
+        "sigla": "SIS",
+        "designacao": "Serviço de Informações e Segurança",
+        "id": "ent_SIS"
+    }
+]
+

@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  header.w3-container.w3-indigo
+    h1(align='center') Classificação e Avaliação da Informação Pública
+  .w3-container
+    h2.w3-indigo(align='center') Contexto
+    p Ao navegar nesta página, pode obter várias informações relativamente à informação de tipologias, assim como, informações sobre entidades e processos.
+    p De seguida, apresenta-se uma lista de tipologias com várias opções de configuração.
+  br
+  hr
+  br
+  .w3-container
+    h2.w3-indigo(align='center') Navegação
+    ul.w3-ul
+      each tipologia in tipologias
+        li.w3-li
+          -var estado = tipologia.estado
+          -var sigla = tipologia.sigla
+          -var designacao = tipologia.designacao
+          -var id = tipologia.id
+          a.w3-hover-teal(href='http://localhost:3002/desc/' + id) #{sigla} #{id}
+  br
+  footer.w3-container.w3-indigo
+    a(href='http://localhost:3002') Voltar à página inicial

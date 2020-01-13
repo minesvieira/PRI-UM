@@ -1,0 +1,41 @@
+extends layout
+
+block content
+  header.w3-container.w3-indigo
+    h1(align='center') Classificação e Avaliação da Informação Pública
+  .w3-container
+    h2.w3-indigo(align='center') Contexto
+    - var nome = infoProcesso.sigla
+    p.w3-center
+        b #{infoProcesso.sigla} (#{infoProcesso.id})
+    if infoProcesso.estado
+        p
+            b Estado:
+            p #{infoProcesso.estado}
+    if infoProcesso.designacao
+        p
+            b Designação:
+            p #{infoProcesso.designacao}   
+     if infoProcesso.internacional
+        p
+            b Entidades:
+            p #{infoProcesso.internacional}        
+  br
+  hr
+  br
+  .w3-container
+    h2.w3-indigo(align='center') Lista de Entidades
+    ul.w3-ul
+        if tipologias.length
+            each tipologia in tipologias
+                li.w3-li
+                    -var estado = tipologia.estado
+                    -var sigla = tipologia.sigla
+                    -var designacao = tipologia.designacao
+                    -var id = tipologia.id
+                    a.w3-hover-teal(href='http://localhost:3002/desc/' + id) #{sigla} #{id}
+        else
+            p.w3-text-grey.w3-center.w3-large Não é composta por nenhuma lista de entidades!
+  br
+  footer.w3-container.w3-indigo
+    a.w3-hover-teal(href='http://localhost:3002') Voltar à página inicial

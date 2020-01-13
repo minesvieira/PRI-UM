@@ -1,0 +1,13 @@
+Quantos Tipologias estão catalogadas?
+76
+
+Quantos Entidades pertencem à Tipologia tip_FSS?
+4
+
+Em que processos a tipologia tip_FA participa como Comunicador?
+1
+
+A que tipologias pertence a entidade ent_SEF?
+2
+Forças e serviços de segurança
+Administração Pública

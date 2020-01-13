@@ -1,0 +1,12 @@
+[
+    {
+        "sigla": "AP",
+        "designacao": "Administração Pública",
+        "id": "tip_AP"
+    },
+    {
+        "sigla": "FSS",
+        "designacao": "Forças e serviços de segurança",
+        "id": "tip_FSS"
+    }
+]

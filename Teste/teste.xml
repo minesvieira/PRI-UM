@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Maria/Desktop/pr.dtd">
+<pr>
+    <meta>
+        <keyname>Maria_MEI2019</keyname>
+        <title>Teste de Avaliação</title>
+        <subtitle>Resolução dos exercícios</subtitle>
+        <bdate>Janeiro 2020</bdate>
+        <edate>Janeiro 2020</edate>
+        <supervisor>
+            <name>Professor José Carlos Ramalho</name>
+            <email>jcr@uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>PG39292</identifier>
+            <name> Maria Inês Vieira Pinto</name>
+            <email>mariainesvpinto14@hotmail.com</email>
+            <photo path="maria.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p> No primeiro exercício, tive que retirar algumas vírgulas e espaços do ficheiro json para o dataset estar bem estruturado. Este ficheiro encontra-se na pasta exercicio1 chamado de <i>jrcpubs.json</i></p>
+        <p> Para executar esta aplicação coloquei o servidor do mongoDB e criei a base de dados chamada "pubs". Utilizei o seguinte comando, na diretoria do exercicio 1 para a criação dessa bd:</p>
+        <p>mongoimport -d pubs -c pubs --jsonArray C:\Users\Maria\Desktop\Teste\exercicio1\jcrpubs.json </p>
+        <p> Depois disto, corri o servidor com npm start dentro da pasta do exercicio 1 e comecei a construir a api de dados para as publicações.</p>
+        <p> No segundo exercício, comecei por responder às perguntas usando o Postman. Essas respostas encontra-se na pasta respostaPostman dentro da pasta exercicio2. De seguida, comecei a desenvolver a aplicação Nodejs. </p>
+        <p> Para executar a aplicação também desenvolvida no segundo exercício, basta executar o servidor dentro da pasta exercício 2 com <i>npm start</i>.</p>
+        <p> Para o exercicio 1 usei a porta 3001 e para o segundo exercicio a porta 3002.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/minesvieira/PRI-UM"> https://github.com/minesvieira/PRI-UM </deliverable>
+    </deliverables>
+</pr>
+
