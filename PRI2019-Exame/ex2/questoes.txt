@@ -1,0 +1,35 @@
+ 
+1- Quantos Diplomas Legislativos estão catalogados? (pista: na API há uma rota que dá este número diretamente)
+1721
+2- Quantos diplomas do tipo "Portaria" estão catalogados?
+401
+3- Que processos são regulados pelo diploma "Lei 9/2009"?
+[
+    {
+        "codigo": "450.10.442",
+        "titulo": "Reconhecimento de títulos profissionais obtidos no estrangeiro",
+        "id": "c450.10.442"
+    },
+    {
+        "codigo": "750.10.001",
+        "titulo": "Seleção e seriação para ingresso no ensino ou formação",
+        "id": "c750.10.001"
+    },
+    {
+        "codigo": "750.20.600",
+        "titulo": "Realização de atividades de ensino ou formação",
+        "id": "c750.20.600"
+    }
+]
+
+Estes 3 processos.
+
+4- Que diplomas legislativos estão associados ao processo "c300.10.005"?
+leg_SPQ6RPHjDULNR7vx-TR7Q
+leg_rmw3eKeQndbdIQn8Beyu1
+leg_DW4VStPrIyHqe12gS73u6
+leg_0ZQ15pYZ8XGW8ks7mPD7Y
+leg_8ZIOJDonnBbEHkhVysR7W
+leg_wEMXUNiLzav0nWrc6lnEe
+
+Estes 6 diplomas legislativos com estes respetivos id's, estão associados ao processo c300.10.005
